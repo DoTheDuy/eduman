@@ -1361,9 +1361,11 @@ p {
   font-size: 16px;
   line-height: 1;
   font-weight: 600;
+
 }
 .dropdown-category ul li a:hover {
-  color: #2467EC;
+  color: white;
+  background-color: #2467EC;
 }
 
 .item-has-children {
@@ -1372,7 +1374,6 @@ p {
 
 .dropdown-category .item-has-children:after {
   position: absolute;
-  content: "";
   font-size: 12px;
   color: #141517;
   top: 50%;
